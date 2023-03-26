@@ -8,6 +8,6 @@ function returnsANamedFunction(){
 
 function returnsAnAnonymousFunction(){
     return function(){
-         console.log('I just did something.')
+         console.log('I just did something.');
     }
 }    
