@@ -7,5 +7,5 @@ function returnsANamedFunction(){
 }
 
 function returnsAnAnonymousFunction(){
-    return () => "does something";
+    return () => 'I just did something.'
 }
