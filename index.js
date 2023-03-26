@@ -3,9 +3,13 @@ function receivesAFunction(callback){
 }
 
 function returnsANamedFunction(){
- return x = () => 'I did something.'
+ return x = () => {
+    'I did something.'
+}
 }
 
 function returnsAnAnonymousFunction(){
-    return () => "I just did something."
-}    
+    return function () {
+        'I just did something.'
+    }
+}
