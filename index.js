@@ -5,11 +5,11 @@ function receivesAFunction(callback){
 function returnsANamedFunction(){
  return x = () => {
     'I did something.'
-}
+};
 }
 
 function returnsAnAnonymousFunction(){
     return function () {
-        'I just did something.'
-    }
+        console.log('I just did something.')
+    };
 }
